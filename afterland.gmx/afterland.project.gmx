@@ -4,18 +4,37 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\mus_test</sound>
+  </sounds>
   <sprites name="sprites">
-    <sprite>sprites\spr_player</sprite>
+    <sprites name="overworld">
+      <sprite>sprites\spr_player</sprite>
+    </sprites>
+    <sprites name="encounter">
+      <sprite>sprites\spr_playerSoul</sprite>
+      <sprite>sprites\spr_boundary</sprite>
+      <sprite>sprites\spr_projectile</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path0</path>
+  </paths>
   <objects name="objects">
-    <object>objects\obj_player</object>
+    <objects name="overworld">
+      <object>objects\obj_player</object>
+    </objects>
+    <objects name="encounter">
+      <object>objects\obj_boundary</object>
+      <object>objects\obj_projectile</object>
+      <object>objects\obj_playerSoul</object>
+      <object>objects\obj_projectileSpawner</object>
+    </objects>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
-    <room>rooms\start</room>
+    <room>rooms\en_test</room>
+    <room>rooms\ow_test</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

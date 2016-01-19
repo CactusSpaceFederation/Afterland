@@ -5,7 +5,9 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\mus_test</sound>
+    <sounds name="effects">
+      <sound>sound\sound4</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprites name="overworld">
@@ -19,7 +21,7 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
-    <path>paths\path0</path>
+    <path>paths\path1</path>
   </paths>
   <objects name="objects">
     <objects name="overworld">
